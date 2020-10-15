@@ -1,5 +1,6 @@
 package com.example.demo.Service;
 
 public interface IntMessage {
-    void sendByType(String name,String text);
+     void sendByType(String name,String text);
+     String getType();
 }
